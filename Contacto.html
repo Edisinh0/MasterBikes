@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterBikes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="header">
+    <img src="img/asd.jpg" alt="logo">
+    <div>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+</header>
+
+
+
+<div id="contenido">
+
+   
+<form action="" id="formulario_contacto">
+<label for="nombre">Nombre</label>
+<input type="text" name="nombre" id="nombre">
+<br>
+<label for="email">Correo Electronico</label>
+<input type="email" name="email" id="email">
+<br>
+<label for="tipo_solicitud">Tipo Solicitud</label>
+<select name="tipo_solicitud" id="tipo_solicitud">
+    <option value="">Seleccionar</option>
+    <option value="sugerencia">Sugerencia</option>
+    <option value="reclamo">Reclamo</option>
+    <option value="consulta">Consulta</option>
+</select>
+<br>
+<label for="mensaje">Mensaje</label>
+<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+<br>
+<input type="checkbox" name="avisos" id="avisos">
+<label for="avisos">¿Desea recibir sugerencias o avisos?</label>
+<br>
+<input type="reset" value="Limpiar">
+<button type="button" id="guardar">Guardar </button>
+</form>
+
+   
+
+</div>
+
+<footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<script src="js/formulario_jquery.js"></script>
+<script src="js/feriados.js"></script>
+</footer>
+
+</body>
+</html>
